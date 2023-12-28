@@ -19,5 +19,12 @@ app.get('/second1',function(req,res){
     res.send("second1 function call "+p);
 });
 
+app.get('/third',function(req,res){
+
+    var p = req.query.name
+
+    res.send("second1 function call "+p);
+});
+
 
 app.listen(3000);
